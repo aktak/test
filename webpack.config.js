@@ -4,6 +4,7 @@ const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 // Invocation	                   Resulting environment
+//
 // webpack --env prod            "prod"
 // webpack --env.prod            { prod: true }
 // webpack --env.prod=1          { prod: 1 }
