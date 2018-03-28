@@ -11,7 +11,7 @@ const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPl
 // webpack --env.prod=foo        { prod: "foo" }
 // webpack --env.prod --env.min  { prod: true, min: true }
 // webpack --env.prod --env min  [{ prod: true }, "min"]
-// webpack --env.prod=foo --env.prod=bar {prod: [ "foo", "bar" ]}
+// webpack --env.prod=foo --env.prod=bar {prod: [ "foo", "bar" ]} 
 
 module.exports = (env) => {
 
