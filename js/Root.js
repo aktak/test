@@ -4,10 +4,7 @@ import ReactDOM from 'react-dom';
 import { withStyles, MuiThemeProvider, createMuiTheme } from 'material-ui/styles';
 import orange from 'material-ui/colors/orange';
 
-//import SvgJobs from './SvgJobs'
 import Site from './Site'
-import A from './A'
-import B from './B'
 
 const theme = createMuiTheme({
   palette: {

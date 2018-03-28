@@ -63,7 +63,7 @@ module.exports = (env) => {
 
   var config = {
     stats: { modules: false },
-    entry: { 'main': './js/App.js' },
+    entry: { 'main': './js/Root.js' },
     output: {
       path: outputpath,
       filename: 'React.js',
